@@ -1,11 +1,11 @@
+from keep_alive import keep_alive
+keep_alive()
+
 import discord
 import requests
 import json
 from dotenv import load_dotenv
 import os
-from keep_alive import keep_alive
-
-keep_alive()
 
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
